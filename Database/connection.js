@@ -8,7 +8,7 @@ module.exports = () => {
     return mongoose.connect(URL,{
         useNewUrlParser:true
     }).then(() => {
-        console.log("Database connected successfully");
+        console.log("Database_connected_successfully");
     }).catch(err => {
         console.log("Error in code ",err);
         process.exit();

@@ -9,7 +9,7 @@ app.use(bodyParser.urlencoded({extended:false}))
 app.use(bodyParser.json())
 
 MongoClient().then(()=>{
-    console.log("Connected")
+    console.log("Connected successfully")
 })
 .catch(console.log)
 
